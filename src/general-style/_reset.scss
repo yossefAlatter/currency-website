@@ -1,0 +1,23 @@
+//== reset spacing for all elements ==//
+//== start ==//
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+//== end ==//
+
+//== reset ul style ==//
+//== start ==//
+ul{
+    list-style: none;
+    display: flex;
+}
+//== end ==//
+
+//== reset anchor tag style ==//
+//== start ==//
+a{
+    text-decoration: none;
+}
+//== end ==//
