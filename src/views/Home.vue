@@ -11,6 +11,13 @@
     <pragraph-intro />
     <!-- end -->
 
+    <!-- buttons for curency prices -->
+    <!-- start -->
+    <div class="btn-con">
+        <router-link to="/currencyprice" class="nav-link">اسعار العملات</router-link>
+    </div>
+    <!-- end -->
+
   </div>
 </template>
 
@@ -53,7 +60,31 @@ export default {
   overflow: hidden;
   padding-left: 10px;
   padding-right: 10px;
+  flex-direction: column;
 }
 //== end ==//
+
+//== btn style ==//
+//== start ==//
+.btn-con{
+  margin-top: 30px;
+  position: relative;
+  a{
+    border: none;
+    outline: none;
+    background-color: var(--grayBlueColor);
+    color: var(--whiteColor);
+    padding: 15px 30px;
+    border-radius: 100px;
+    min-width: 400px;
+    font-family: var(--arabicFont);
+    &:hover{
+      transition: all 0.3s;
+      opacity: 0.8;
+    }
+  }
+}
+//== end ==//
+
 
 </style>

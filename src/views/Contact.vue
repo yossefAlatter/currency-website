@@ -8,7 +8,7 @@
     <!-- telegram section -->
     <!-- start -->
     <div class="telegram-con">
-        <a href="https://codecanyon.net/item/massive-cryptocurrency-widgets-phphtml-edition/23098271"><img src="./../assets/telegram.png" alt="telegram" /></a>
+        <a href="https://t.me/btcalarabi"><img src="./../assets/telegram.png" alt="telegram" /></a>
         <p>قناتنا على التلجرام</p>
     </div>
     <!-- end -->
