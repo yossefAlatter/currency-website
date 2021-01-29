@@ -76,7 +76,7 @@ export default {
 .nav-list{
     .nav-item{
         .nav-link{
-            font-size: 20;
+            font-size: 17px;
             font-family: var(--arabicFont);
             font-weight: normal;
             color: var(--whiteColor);
@@ -115,11 +115,41 @@ export default {
 @media screen and (max-width: 475px){
   .nav-layout{
     align-items: flex-start !important;
+    flex-direction: column;
+  }
+  .logo-con{
+      margin-bottom: 15px;
+      margin-right: auto;
   }
   .nav-list{
-      flex-direction: column;
       li{
           margin-bottom: 20px;
+      }
+  }
+}
+@media screen and (max-width: 400px){
+
+  .nav-list{
+      li{
+          margin-bottom: 20px;
+          a{
+              padding-left: 13px !important;
+              padding-right: 13px !important;
+              font-size: 14px !important;
+          }
+      }
+  }
+}
+@media screen and (max-width: 285px){
+
+  .nav-list{
+      li{
+          margin-bottom: 20px;
+          a{
+              padding-left: 8px !important;
+              padding-right: 8px !important;
+              font-size: 12px !important;
+          }
       }
   }
 }
